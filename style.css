@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header h1 {
+    color: lightseagreen;
+   /*<weight>: Use a value from 200 to 800*/
+
+
+  font-family: "Stick No Bills", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight 500px; 
+  font-style: normal;
+  margin-left: 2.7rem;
+  font-size: 3.5rem;  
+}
+
+.header p {
+    font-family: fantasy;
+    margin-left: 3rem;
+    color: darkcyan;
+    letter-spacing: 0.1em;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-top: 36px;
+    background-color: lightseagreen;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 1rem;
+    text-transform: none;
+    
+}
+
+nav a{ 
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: white;
+    background-color: slategray;
+}
+
+   
+    
+
